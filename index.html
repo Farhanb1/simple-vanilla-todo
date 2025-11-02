@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Basic HTML/CSS/JS Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Starter Project</h1>
+    <p class="subtitle">A small HTML, CSS & JavaScript demo</p>
+  </header>
+
+  <main class="container">
+    <section class="card todo-card" aria-labelledby="todo-title">
+      <h2 id="todo-title">To‑Do List</h2>
+
+      <form id="todo-form" class="todo-form" aria-label="Add task">
+        <input type="text" id="todo-input" placeholder="Add a new task..." required />
+        <button type="submit">Add</button>
+      </form>
+
+      <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+    </section>
+
+    <section class="card info-card">
+      <h2>About</h2>
+      <p>
+        This tiny project demonstrates DOM manipulation and responsive styling.
+        Open <code>script.js</code> to see the JS logic.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Built with HTML • CSS • JS</small>
+  </footer>
+
+  <!-- Toast for alerts -->
+  <div id="toast" class="toast" aria-live="assertive" aria-atomic="true"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
