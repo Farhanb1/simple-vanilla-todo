@@ -15,7 +15,7 @@ This repository contains a small, beginner-friendly to‑do application you can 
 
 Getting started
 1. Clone the repository:
-   - git clone git@github.com:<your-username>/simple-vanilla-todo.git
+   - git clone git@github.com:<Farhanb1>/simple-vanilla-todo.git
 2. Open index.html in your browser to run locally.
 3. Edit files and refresh to see changes.
 
